@@ -32,3 +32,8 @@
 *.app
 
 /build
+/CMakeFiles
+*.cmake
+CMakeCache.txt
+*.exe
+*.vscode

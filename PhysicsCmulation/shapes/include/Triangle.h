@@ -16,6 +16,11 @@ class Triangle {
       points[i] = p[i];
     }
   }
+  Triangle(shared_ptr<Point> p1, shared_ptr<Point> p2, shared_ptr<Point> p3) {
+    points[0] = p1;
+    points[1] = p2;
+    points[2] = p3;
+  }
 
   double GetArea();
 };

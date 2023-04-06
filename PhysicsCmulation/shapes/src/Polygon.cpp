@@ -1,8 +1,8 @@
 #include "../include/Polygon.h"
 
 
-int64_t shapes::Polygon::GetArea() {
-    int64_t total;
+double shapes::Polygon::GetArea() {
+    double total = 0;
     for (auto triangle : shapes) {
         total += triangle->GetArea();
     }

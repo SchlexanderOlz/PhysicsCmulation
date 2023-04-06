@@ -1,0 +1,7 @@
+#include "include/Person.h"
+#include "physics/include/ForceObject.h"
+#include "physics/include/PhysicalObject.h"
+#include "shapes/include/Node.h"
+#include "shapes/include/Point.h"
+#include "shapes/include/Polygon.h"
+#include "shapes/include/Triangle.h"

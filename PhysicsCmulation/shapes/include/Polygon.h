@@ -14,7 +14,7 @@ class Polygon {
 
   Polygon(vector<shared_ptr<Triangle>> t) : shapes(t) {};
 
-  int64_t GetArea();
+  double GetArea();
 };
 
 }  // namespace shapes

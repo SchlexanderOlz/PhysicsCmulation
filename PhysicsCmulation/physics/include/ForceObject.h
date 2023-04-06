@@ -1,5 +1,7 @@
 #include <cmath>
 
+#ifndef FORCE_H
+#define FORCE_H
 namespace physics {
 class ForceObject {
  public:
@@ -34,3 +36,5 @@ class ForceObject {
   }
 };
 }  // namespace physics
+
+#endif
