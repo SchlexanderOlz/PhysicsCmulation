@@ -16,4 +16,4 @@ set(SOURCES
 
 set(CMAKE_CXX_STANDARD 17) 
 
-add_executable(PhysXCmulation.exe ${SOURCES})
+add_executable(PhysXCmulation.exe ${SOURCES}) # Use exe
